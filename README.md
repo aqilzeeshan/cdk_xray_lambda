@@ -1,14 +1,3 @@
-# Welcome to your CDK TypeScript project!
-
-This is a blank project for TypeScript development with CDK.
-
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
-
-## Useful commands
-
- * `npm run build`   compile typescript to js
- * `npm run watch`   watch for changes and compile
- * `npm run test`    perform the jest unit tests
- * `cdk deploy`      deploy this stack to your default AWS account/region
- * `cdk diff`        compare deployed stack with current state
- * `cdk synth`       emits the synthesized CloudFormation template
+* CDK version of https://medium.com/workfall/how-to-analyze-debug-and-trace-aws-lambda-function-using-aws-x-ray-4c901058aa7d
+* Uses inline and usual lambda function to check how X-ray works
+* Also shows how to give permission to lambda to list S3 buckets.
